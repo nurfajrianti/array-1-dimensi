@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+int nilai[5];
+int i;
+int jumlah;
+
+for (int i=0; i<5; i++){
+    cout << "masukkan nilai ..."<<endl;
+    cin >> nilai[i];
+}
+jumlah = 0;
+for (int i=0; i<5; i++){
+    jumlah+=nilai[i];
+}
+cout <<"jumlah seluruhnya : "<< jumlah <<endl;
